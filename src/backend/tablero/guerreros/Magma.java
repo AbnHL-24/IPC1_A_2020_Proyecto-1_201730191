@@ -1,4 +1,4 @@
-package backend.tablero.Guerreros;
+package backend.tablero.guerreros;
 
 public class Magma extends Guerreros {
 
