@@ -1,5 +1,5 @@
 package backend.tablero.Guerreros;
 
-public class Guerreros {
+public abstract class Guerreros {
 
 }

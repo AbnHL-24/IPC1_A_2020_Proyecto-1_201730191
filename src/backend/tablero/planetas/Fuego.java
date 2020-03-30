@@ -10,7 +10,7 @@ public class Fuego extends Planeta {
     public void setDineroGenerado() {
         int max = 140;
         int min = 70;
-        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min)/1000);
+        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min));
     }
 
 }

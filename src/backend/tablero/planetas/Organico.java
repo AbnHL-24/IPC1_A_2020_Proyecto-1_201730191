@@ -10,7 +10,7 @@ public class Organico extends Planeta {
     public void setDineroGenerado() {
         int max = 160;
         int min = 80;
-        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min)/1000);
+        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min));
     }
 
 }

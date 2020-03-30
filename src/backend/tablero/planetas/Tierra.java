@@ -10,7 +10,7 @@ public class Tierra extends Planeta {
     public void setDineroGenerado() {
         int max = 100;
         int min = 50;
-        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min)/1000);
+        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min));
     }
 
 }

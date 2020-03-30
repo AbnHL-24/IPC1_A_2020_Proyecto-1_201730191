@@ -10,7 +10,7 @@ public class Agua extends Planeta {
     public void setDineroGenerado() {
         int max = 120;
         int min = 60;
-        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min)/1000);
+        this.dineroGenerado += ((Math.floor(Math.random()*(max-min))+min));
     }
 
 }
