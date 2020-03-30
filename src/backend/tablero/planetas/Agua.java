@@ -6,6 +6,7 @@ public class Agua extends Planeta {
 
     double probabilidadAparicion = (double) 25/100;
 
+    @Override
     public void setDineroGenerado() {
         int max = 120;
         int min = 60;

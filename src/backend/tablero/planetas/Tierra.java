@@ -6,6 +6,7 @@ public class Tierra extends Planeta {
 
     double probabilidadAparicion = (double) 45/100;
 
+    @Override
     public void setDineroGenerado() {
         int max = 100;
         int min = 50;

@@ -1,6 +1,6 @@
 package backend.tablero.planetas;
 
-public class Planeta {
+public abstract class Planeta {
     protected String nombre;
     protected double porcentajeMuerte;
     protected int cantidadDinero;
@@ -67,4 +67,6 @@ public class Planeta {
         return dineroGenerado;
     }
 
+    public void setDineroGenerado() {
+    }
 }

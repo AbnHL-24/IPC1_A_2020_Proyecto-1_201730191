@@ -6,6 +6,7 @@ public class Radioactivo extends Planeta {
 
     double probabilidadAparicion = (double) 25/100;
 
+    @Override
     public void setDineroGenerado() {
         int max = 180;
         int min = 90;
